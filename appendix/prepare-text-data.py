@@ -1,0 +1,4 @@
+text_content = """Pythonは非常に強力な言語です。Pythonはデータ分析に広く使われています。データ分析や自然言語処理を楽しもう。"""
+
+with open("study.txt", mode="w", encoding="utf-8") as f:
+    f.write(text_content)
