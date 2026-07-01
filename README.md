@@ -63,7 +63,7 @@ appendix/
 
 ```
 ### 利用方法
-本書のコードはGoogle Colaboratory(https://colab.research.google.com/?hl=ja)環境での動作を想定しているPythonコードです。
+本書のコードはGoogle Colaboratory([https://colab.research.google.com/?hl=ja](https://colab.research.google.com/?hl=ja))環境での動作を想定しているPythonコードです。
 #### 1. ソースのダウンロード
 ! git clone https://github.com/gihyo-book/llm_information_extraction_book.git
 
