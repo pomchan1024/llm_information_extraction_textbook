@@ -64,15 +64,28 @@ appendix/
 ```
 ### 利用方法
 本書のコードはGoogle Colaboratory([https://colab.research.google.com/?hl=ja](https://colab.research.google.com/?hl=ja))環境での動作を想定しているPythonコードです。
-#### 1. ソースのダウンロード
+#### Step 1. ソースのダウンロード
+新しくセルを追加し以下を実行します。  
+```
 ! git clone https://github.com/gihyo-book/llm_information_extraction_book.git
-
-#### 2. 興味のある章へ移動（例：第5章の場合）
+```
+#### Step 2. 興味のある章へ移動（例：第5章の場合）
+新しくセルを追加し以下を実行します。 
+```
 % cd llm_information_extraction_book/chapter_5
+```
 
-#### 3. 興味のあるコードの内容を確認
+#### Step 3. 興味のあるコードの内容を確認（例：tf-idf.pyの場合）
+新しくセルを追加し以下を実行します。 
+```
 ! cat tf-idf.py
-
-#### 4. 実行
+```
+#### Step 4. 実行
 出力されたコードをコピーします。セルの左側にある三点リーダーから選択できます。  
-新しいセルに貼り付けて実行ボタンを押下します。
+新しいセルを追加し、それを貼り付けて実行ボタンを押下します。
+
+#### Step 5. 他の章への移動
+他の章へ移動したい場合は、下記を実行します。その後、Step 3、4に戻り興味のあるコードを実行します。
+```
+%cd ../chapter_6
+```
